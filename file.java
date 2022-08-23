@@ -18,6 +18,8 @@ import org.opencv.imgproc.Imgproc;
 public class MainActivity extends AppCompatActivity implements CameraBridgeViewBase.CvCameraViewListener2 {
 
     private static final String TAG = "MainActivity";
+
+    public String token="odkdokdokd"
     private JavaCamera2View javaCameraView;
     private ObjectDetection odObjectDetection;
     private BaseLoaderCallback mLoaderCallBack = new BaseLoaderCallback(this){
